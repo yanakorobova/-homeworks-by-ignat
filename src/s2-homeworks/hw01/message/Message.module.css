@@ -1,31 +1,57 @@
-.message {
 
+.message {
+    padding: 10px;
 }
 
 .imageAndText {
-
+    align-items: end;
+    display: grid;
+    grid-template-columns: 100px 360px;
+    justify-items: center;
 }
 
 .imageAndText img {
-
+    border-radius: 500%;
+    width: 70px;
 }
 
 .text {
-
+    background: #4f6a88;
+    border-radius: 10px 10px 10px 0;
+    color: #ffffff;
+    min-height: auto;
+    padding: 5px;
+    position: relative;
+    width: 350px;
 }
 
 .text:after {
-
+    background: radial-gradient(60px at top left, transparent 49%, #4f6a88 51%) no-repeat 100% 100%;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 30px;
+    position: absolute;
+    right: 100%;
+    width: 30px;
 }
 
 .name {
-
+    color: #65e37a;
+    font-size: 20px;
+    margin: 5px;
+    font-weight: bold;
 }
 
 .messageText {
-
+    margin: 5px;
+    text-align: justify;
+    white-space: pre-wrap;
+    padding-right: 10px;
+    font-size: 13.5px;
 }
 
 .time {
-
+    float: right;
+    margin: 5px 15px 0;
 }
