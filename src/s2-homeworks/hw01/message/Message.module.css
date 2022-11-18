@@ -8,39 +8,44 @@
     display: grid;
     grid-template-columns: 100px 360px;
     justify-items: center;
+
 }
 
 .imageAndText img {
     border-radius: 500%;
-    width: 70px;
+    margin-left: 750px;
+    width: 55px;
+
 }
 
 .text {
-    background: #4f6a88;
-    border-radius: 10px 10px 10px 0;
-    color: #ffffff;
+    background: #F5F7FB;
+    border-radius: 10px 10px 0 10px;
+    color: #0f0f10;
     min-height: auto;
     padding: 5px;
     position: relative;
     width: 350px;
+    right: 85px;
 }
 
 .text:after {
-    background: radial-gradient(60px at top left, transparent 49%, #4f6a88 51%) no-repeat 100% 100%;
+    background: radial-gradient(60px at top right, transparent 49%, #F5F7FB 51%) no-repeat 100% 100%;
     bottom: 0;
     content: "";
     display: block;
     height: 30px;
     position: absolute;
-    right: 100%;
+    left: 100%;
     width: 30px;
 }
 
 .name {
-    color: #65e37a;
+    color: #0f0f10;
     font-size: 20px;
-    margin: 5px;
+
     font-weight: bold;
+    margin-left: 62.5%;
 }
 
 .messageText {
@@ -52,7 +57,7 @@
 }
 
 .time {
-    float: right;
-    margin: 5px 15px 5px;
+    float: left;
+    margin: 5px 0px 5px 5px;
     font-size: 15px;
 }
