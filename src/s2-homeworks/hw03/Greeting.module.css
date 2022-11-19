@@ -1,35 +1,97 @@
 .greetingForm {
+    margin-left: 10px;
+    margin-bottom: 50px;
 }
 
 .inputAndButtonContainer {
+    display: grid;
+    grid-template-columns:  510px  100px;;
 }
 
 .error {
+    width: 165px;
+    height: 17px;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #CC0000;
 }
 
-.input {
+input {
+    box-sizing: border-box;
+    width: 500px;
+    height: 36px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-left: 10px
 }
 
-.input:focus {
+input:focus {
 }
 
 .errorInput {
+    border: 1px solid #CC0000;
+}
+
+.notError {
+    border: 1px solid #D1D1D1;
 }
 
 .button {
+    width: 78px;
+    height: 36px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #0066CC;
+    font-family: 'Montserrat', serif;
+    border-color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .button:focus {
+
 }
 
 .button:active {
+    background: #3172b4;
 }
 
 .button:disabled {
+    background: #0066CC;
+    opacity: 0.5;
 }
 
 .text {
+    width: 143px;
+    height: 17px;
+    left: 70px;
+    top: 994px;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
 }
 
 .greeting {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
 }
