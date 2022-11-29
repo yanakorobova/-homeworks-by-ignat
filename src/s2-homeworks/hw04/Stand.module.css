@@ -1,7 +1,9 @@
 .stand {
+    margin-left: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .inputs {
@@ -14,10 +16,12 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin-right: 200px;
 }
 
 .checkboxes {
     display: flex;
     flex-direction: column;
     gap: 36px;
+    margin-right: 200px;
 }
