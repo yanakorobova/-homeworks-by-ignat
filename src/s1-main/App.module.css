@@ -3,20 +3,23 @@
 }
 
 .hw {
-    margin-left: 10px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    border-bottom: 1px solid #D9D9D9;
 }
 
 .hwTitle {
     margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-bottom: 10px;
     font-family: 'Montserrat', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
-    /* identical to box height */
-
 
     color: #000000;
+    border-bottom: 1px solid #D9D9D9;
+
 }
