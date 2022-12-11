@@ -5,7 +5,7 @@
 
 .inputAndButtonContainer {
     display: grid;
-    grid-template-columns:  510px  100px;;
+    grid-template-columns:  510px  100px;
 }
 
 .error {

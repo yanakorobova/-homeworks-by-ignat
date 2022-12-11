@@ -57,7 +57,6 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
 
     const totalUsers = users.length// need to fix
     const lastUserName = error ? '' : users[totalUsers - 1]?.name
-    console.log(users)
     return (
         <Greeting
             name={name}
