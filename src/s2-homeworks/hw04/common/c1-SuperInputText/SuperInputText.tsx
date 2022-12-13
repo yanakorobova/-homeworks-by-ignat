@@ -42,7 +42,6 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
     }
     const onKeyPressCallback = (e: KeyboardEvent<HTMLInputElement>) => {
         onKeyPress?.(e)
-
         onEnter && // если есть пропс onEnter
         e.key === 'Enter' && // и если нажата кнопка Enter
         onEnter() // то вызвать его
@@ -50,6 +49,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
 
     const finalSpanClassName = s.error
         + (spanClassName ? ' ' + spanClassName : '')
+    debugger
     const finalInputClassName = s.input
         + (error ? ' ' + s.errorInput : ' ' + s.superInput)
         + (className ? ' ' + s.className : '') // задача на смешивание классов
