@@ -17,7 +17,7 @@ const themes = [
     {id: 1, value: 'light'},
     {id: 2, value: 'blue'},
     {id: 3, value: 'dark'},
-];
+]
 
 const HW12 = () => {
     // взять ид темы из редакса
@@ -26,11 +26,11 @@ const HW12 = () => {
     // const themeId = 1
 
     const change = (id: number) => { // дописать функцию
-        dispatch(changeThemeId(id));
+        dispatch(changeThemeId(id + ''));
     };
 
     useEffect(() => {
-        document.documentElement.dataset.theme = themeId + '';
+        document.documentElement.dataset.theme = themeId + ''
     }, [themeId]);
 
     return (
