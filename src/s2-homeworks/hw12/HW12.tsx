@@ -25,10 +25,9 @@ const HW12 = () => {
     const themeId = useSelector<AppStoreType, number>(state => state.theme.themeId);
 
 
-    const change = (id: number) => { // дописать функцию
-        dispatch(changeThemeId(id));
+    const change = (id: number) => {
+        dispatch(changeThemeId(+id));
     };
-
     useEffect(() => {
         document.documentElement.dataset.theme = +themeId + '';
     }, [themeId]);
