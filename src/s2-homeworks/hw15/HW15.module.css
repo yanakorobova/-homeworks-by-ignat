@@ -1,0 +1,70 @@
+.hw {
+    position: relative;
+}
+
+.tech {
+    width: 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.developer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.techHeader {
+    width: 50%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.developerHeader {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.row {
+    display: flex;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 10px 0 10px 15px;
+    width: 50vw;
+}
+
+.rowHeader {
+    display: flex;
+    background: #E5E5E5;
+    width: 50vw;
+    padding: 10px 0 10px 15px;
+}
+
+.loading {
+    z-index: 20;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.background {
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.3;
+}
+
